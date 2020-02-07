@@ -27,14 +27,14 @@ namespace Rectangle
 
         }
 
-        public void SetLength(int length)
+        public int SetLength(int length)
         {
-            this.length = length;
+            return this.length = length;
         }
 
-        public void SetWidth(int width)
+        public int SetWidth(int width)
         {
-            this.width = width;
+            return this.width = width;
         }
 
         public int GetWidth()
@@ -53,11 +53,6 @@ namespace Rectangle
             return width * length;
         }
 
-
-
-
-
-
-
+                                 
     }
 }

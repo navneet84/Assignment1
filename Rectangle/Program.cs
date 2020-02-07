@@ -5,9 +5,6 @@ namespace Rectangle
     class Program : Rectangle
     {
         static void Main(string[] args)
-
-
-
         {
 
             Rectangle rec = new Rectangle();
@@ -122,34 +119,7 @@ namespace Rectangle
             }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
         }
-
-
-
 
     }
 }
